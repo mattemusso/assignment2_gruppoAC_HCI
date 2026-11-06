@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniTogether</title>
+    <link rel="stylesheet" href="../stile/stile.css">
+    <script src="../js/app.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">UniTogether</a>
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Apri menu"
+            aria-expanded="false"
+            aria-controls="mainNav">
+        ☰
+    </button>
+
+    <nav id="mainNav">
+        <div class="language-selector">
+            <select id="languageSelect" onchange="cambiaLinguaGoogle(this.value)" aria-label="Seleziona lingua">
+                <option value="it">🇮🇹</option>
+                <option value="en">🇬🇧</option>
+                <option value="es">🇪🇸</option>
+                <option value="fr">🇫🇷</option>
+                <option value="de">🇩🇪</option>
+            </select>
+        </div>
+
+        <!-- Contenitore nascosto indispensabile per far funzionare Google Translate -->
+        <div id="google_translate_element" style="display:none;"></div>
+        <button
+                id="themeToggle"
+                class="theme-toggle"
+                type="button"
+                aria-label="Attiva modalità scura"
+                aria-pressed="false">
+            🌙
+        </button>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="progetti.html">Progetti</a>
+        <a href="come-funziona.html">Come funziona</a>
+
+
+        <div class="partner-dropdown">
+
+            <button class="partner-btn" id="partnerBtn"
+                    aria-expanded="false">
+                Partner ▾
+            </button>
+
+            <div class="partner-menu" id="partnerMenu">
+
+                <!-- BANCHE -->
+                <div class="partner-item">
+                    <button class="submenu-btn" aria-expanded="false">
+                        Banche <span>›</span>
+                    </button>
+
+                    <div class="partner-submenu">
+                        <a href="errore.html">Banca 1</a>
+                        <a href="errore.html">Banca 2</a>
+                        <a href="errore.html">Banca 3</a>
+                    </div>
+                </div>
+
+                <!-- ENTI PUBBLICI -->
+                <div class="partner-item">
+                    <button class="submenu-btn" aria-expanded="false">
+                        Enti Pubblici <span>›</span>
+                    </button>
+
+                    <div class="partner-submenu">
+                        <a href="errore.html">Ente pubblico 1</a>
+                        <a href="errore.html">Ente pubblico 2</a>
+                        <a href="errore.html">Ente pubblico 3</a>
+                    </div>
+                </div>
+
+                <!-- FONDAZIONI -->
+                <div class="partner-item">
+                    <button class="submenu-btn" aria-expanded="false">
+                        Fondazioni <span>›</span>
+                    </button>
+
+                    <div class="partner-submenu">
+                        <a href="errore.html">Fondazione 1</a>
+                        <a href="errore.html">Fondazione 2</a>
+                        <a href="errore.html">Fondazione 3</a>
+                    </div>
+                </div>
+
+                <!-- UNIVERSITÀ -->
+                <div class="partner-item">
+                    <button class="submenu-btn" aria-expanded="false">
+                        Università <span>›</span>
+                    </button>
+
+                    <div class="partner-submenu">
+                        <a href="index.html">Università di Torino</a>
+                        <a href="errore.html">Università di Firenze</a>
+                        <a href="errore.html">Università Bocconi</a>
+                        <a href="errore.html">Politecnico di Torino</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <a href="aggiungi.html">
+            Lancia un progetto ↗
+        </a>
+        <a href="login.html">Accedi</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Apri menu">☰</button>
+</header>
+
+<main class="container">
+    <section class="page-hero"><h1>La seguente pagina non è stata implementata</h1></section>
+
+</main>
+
+<footer class="footer-simple">
+    © 2026 UniTogether · Privacy · Condizioni d'uso
+</footer>
+
+</body>
+</html>
